@@ -9,8 +9,10 @@ exportGlyphNames = true
   inherits = "ss13"
 
     [buildPlans.IosevkaCustom.variants.design]
+    a = "double-storey-serifless"
     f = "flat-hook-serifless"
     j = "flat-hook-serifed"
+    r = "hookless-serifless"
     t = "flat-hook"
     zero = "oval-dotted"
     asterisk = "penta-low"
