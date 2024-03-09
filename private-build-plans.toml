@@ -16,6 +16,7 @@ exportGlyphNames = true
     t = "flat-hook"
     zero = "oval-dotted"
     asterisk = "penta-low"
+    underscore = "above-baseline"
     paren = "normal"
     brace = "straight"
     number-sign = "upright-open"
