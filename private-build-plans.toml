@@ -26,6 +26,7 @@ exportGlyphNames = true
     number-sign = "upright-open"
     ampersand = "upper-open"
     at = "threefold-solid-inner"
+    dollar = "interrupted-cap"
     percent = "dots"
     lig-ltgteq = "slanted"
     lig-neq = "vertical"
