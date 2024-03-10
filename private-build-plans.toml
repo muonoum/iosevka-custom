@@ -55,6 +55,11 @@ shape = 700
 menu = 700
 css = 700
 
+[buildPlans.IosevkaCustom.weights.ExtraBold]
+shape = 800
+menu = 800
+css = 800
+
 [buildPlans.IosevkaCustom.widths.Normal]
 shape = 500
 menu = 5
