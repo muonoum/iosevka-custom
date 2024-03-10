@@ -1,0 +1,15 @@
+diff --git a/packages/font-otl/src/gsub-ligation.ptl b/packages/font-otl/src/gsub-ligation.ptl
+index f3301b5d5..85165daf8 100644
+--- a/packages/font-otl/src/gsub-ligation.ptl
++++ b/packages/font-otl/src/gsub-ligation.ptl
+@@ -136,8 +136,8 @@ define [buildLigationsImpl gsub para $LigGroup$] : begin
+ 		define skipL    { 'slash' 'backslash' 'at' 'ampersand' 'percent' 'numberSign' }
+ 		define skipR    { 'slash' 'backslash' 'at' 'ampersand' 'percent' 'numberSign' }
+ 
+-		if [hasLG 'center-op-trigger-plus-minus-l'] : triggerL.push 'plus' 'minus' 'hyphen'
+-		if [hasLG 'center-op-trigger-plus-minus-r'] : triggerR.push 'plus' 'minus' 'hyphen'
++		if [hasLG 'center-op-trigger-plus-minus-l'] : triggerL.push 'plus' 'minus' 'hyphen' 'slash' 'asterisk'
++		if [hasLG 'center-op-trigger-plus-minus-r'] : triggerR.push 'plus' 'minus' 'hyphen' 'slash' 'asterisk'
+ 		if [hasLG 'center-op-trigger-equal-l']      : triggerL.push 'equal' 'ident'
+ 		if [hasLG 'center-op-trigger-equal-r']      : triggerR.push 'equal' 'ident'
+ 		if [hasLG 'center-op-trigger-bar-l']        : triggerL.push 'bar'
