@@ -11,6 +11,7 @@ exportGlyphNames = true
     [buildPlans.IosevkaCustom.variants.design]
     a = "double-storey-serifless"
     f = "flat-hook-serifless"
+    g = "single-storey-flat-hook-serifless"
     j = "flat-hook-serifed"
     r = "hookless-serifless"
     t = "flat-hook"
