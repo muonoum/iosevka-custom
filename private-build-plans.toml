@@ -24,6 +24,7 @@ exportGlyphNames = true
     paren = "normal"
     brace = "straight"
     number-sign = "upright-open"
+    ampersand = "upper-open"
     at = "threefold-solid-inner"
     percent = "dots"
     lig-ltgteq = "slanted"
