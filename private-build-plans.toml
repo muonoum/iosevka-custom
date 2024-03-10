@@ -12,6 +12,7 @@ exportGlyphNames = true
     a = "double-storey-serifless"
     f = "flat-hook-serifless"
     g = "single-storey-flat-hook-serifless"
+    i = "hooky"
     j = "flat-hook-serifed"
     r = "hookless-serifless"
     t = "flat-hook"
