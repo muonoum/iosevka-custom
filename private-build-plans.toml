@@ -33,6 +33,7 @@ exportGlyphNames = true
 
   [buildPlans.IosevkaCustom.ligations]
   inherits = "dlig"
+  disables = ["slash-asterisk"]
 
 [buildPlans.IosevkaCustom.weights.Regular]
 shape = 400
