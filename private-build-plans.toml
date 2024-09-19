@@ -9,6 +9,8 @@ exportGlyphNames = true
   inherits = "ss13"
 
     [buildPlans.IosevkaCustom.variants.design]
+    one = "no-base"
+    zero = "oval-reverse-slashed"
     a = "double-storey-serifless"
     f = "flat-hook-serifless"
     g = "single-storey-flat-hook-serifless"
@@ -16,8 +18,6 @@ exportGlyphNames = true
     j = "flat-hook-serifed"
     r = "hookless-serifless"
     t = "flat-hook"
-    zero = "oval-slashed"
-    one = "no-base"
     punctuation-dot = "square"
     asterisk = "penta-low"
     underscore = "above-baseline"
@@ -33,7 +33,6 @@ exportGlyphNames = true
 
   [buildPlans.IosevkaCustom.ligations]
   inherits = "dlig"
-  disables = ["slash-asterisk"]
 
 [buildPlans.IosevkaCustom.weights.Regular]
 shape = 400
